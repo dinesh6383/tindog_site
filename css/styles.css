@@ -1,0 +1,145 @@
+
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  color:white;
+  font-family:"Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+.navbar-brand{
+  margin-left:-39px;
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:2.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  padding-left: 20px;
+
+}
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+.dog-pic{
+  width:20%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:24%;
+}
+#features{
+  padding:7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position:relative;
+
+}
+.icon{
+  padding-bottom:1rem;
+}
+h3{
+  font-family: "Montserrat"
+  font-weight:300;
+}
+h2{
+  font-family:"Montserrat";
+  font-weight:700;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.feature-box{
+  padding:3%;
+}
+#features p{
+  color:gray;
+}
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+#testimonials{
+  text-align:center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-img{
+  width:12%;
+  border-radius:100%;
+  margin-top:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-boxes{
+  padding:3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align:center;
+}
+#cta h3{
+  font-family:"Montserrat";
+  color:white;
+  font-weight:900;
+  font-size:40px;
+  padding:5% 23%;
+  padding-bottom:25px;
+  line-height:59px;
+}
+.download-btn{
+  margin-bottom:60px;
+  margin-left:13px;
+}
+
+#footer{
+  background-color: white;
+  padding:3% 15%;
+  text-align:center;
+}
+#footer p{
+  color:grey;
+}
+.social-media{
+  margin:10px 10px;
+}
+.media{
+  color:black;
+}
+
+@media (max-width:1020px){
+  .dog-pic{
+    position:static;
+    transform:rotate(0);
+    width:60%;
+  }
+  #title{
+    text-align: center;
+  }
+}
